@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 public class TelaPrincipal {
 
 	public static Scanner menuPrincipal(Scanner console) throws ParseException, InterruptedException {
-		
+
 		int opcao = 0;
 		do {
 			System.out.println("\n\n### Sistema de Controle Escolar  ###");
@@ -20,11 +20,11 @@ public class TelaPrincipal {
 			System.out.print("    Opção -> ");
 			opcao = console.nextInt();
 			console.nextLine();
-			
+
 			switch (opcao) {
-				case 1: ;
+				case 1: return TelaAluno.menuAluno(console) ;
 				case 2: return TelaCurso.menuCurso(console);
-				case 3: ;
+				case 3: return TelaDisciplina.menuCurso(console);
 				case 0: System.out.println("    Aplicação foi encerrada!");
 						break;
 				default:

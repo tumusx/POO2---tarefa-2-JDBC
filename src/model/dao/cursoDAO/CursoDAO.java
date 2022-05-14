@@ -1,4 +1,4 @@
-package model.dao;
+package model.dao.cursoDAO;
 
 import java.util.List;
 import model.entities.Curso;

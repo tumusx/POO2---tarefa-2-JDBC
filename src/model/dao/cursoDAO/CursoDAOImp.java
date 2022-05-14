@@ -1,4 +1,4 @@
-package model.dao;
+package model.dao.cursoDAO;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -7,6 +7,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.List;
 
+import model.dao.cursoDAO.CursoDAO;
 import model.entities.Curso;
 
 public class CursoDAOImp implements CursoDAO {

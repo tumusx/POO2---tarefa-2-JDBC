@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 public class TelaPrincipal {
 
 	public static Scanner menuPrincipal(Scanner console) throws ParseException, InterruptedException {
-
+//
 		int opcao = 0;
 		do {
 			System.out.println("\n\n### Sistema de Controle Escolar  ###");
